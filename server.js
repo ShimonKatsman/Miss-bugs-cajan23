@@ -4,9 +4,7 @@ const express = require('express')
 const cookieParser = require('cookie-parser')
 
 const app = express()
-
 // const bugs = require('./data/bugs.json')
-
 const bugService = require('./services/bug.service')
 const userService = require('./services/user.service')
 
